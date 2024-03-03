@@ -6,7 +6,7 @@ import dalleRoutes from './routes/dalle.routes.js';
 
 dotenv.config();
 
-const app = express();
+const app = express();  // setting up express application.
 app.use(cors());
 app.use(express.json({ limig: "50mb" }))
 
