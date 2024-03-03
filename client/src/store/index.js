@@ -10,3 +10,5 @@ const state = proxy({
 });
 
 export default state;
+
+// valtio : whatever you define here can be used in whole app
